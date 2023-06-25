@@ -94,15 +94,20 @@
    </div>
   </section>
 
-  <section class="news">
+  <section class="news container">
     <div class="row">
-      <div class="news-left col-12 col-lg-6">
+      <div class="news-left col-12 col-lg-4">
         <div class="image">
           <h3>Latest News</h3>
-          <img src="./assets/images/news-left.jpg" alt="">
-          <h5>Design Instruments for Communication</h5>
-          <a href="#">August 31, 2019</a>
+          <div class="image-body">
+            <img src="./assets/images/news-left.jpg" alt="">
+            <h5>Design Instruments for Communication</h5>
+            <a href="#">August 31, 2019</a>
+          </div>
         </div>
+      </div>
+      <div class="news-center col-12 col-lg-4">
+        <a href="#">See All News</a>
         <div class="blogs">
           <div class="blog">
             <img src="./assets/images/blog1.jpg" alt="">
@@ -134,7 +139,9 @@
           </div>
         </div>
       </div>
-      <div class="news-right col-12 col-lg-6">
+      <div class="news-right col-12 col-lg-4">
+        <h3>Latest News</h3>
+        <a href="#">See All News</a>
         <div class="post">
           <div class="post-date">
             18 <br> Mar
@@ -192,27 +199,28 @@
   </section>
 
   <section class="partners">
-    <div class="partners-left">
-      <h3>Need To Train Your Team?</h3>
-      <p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
-      <div class="partner-image">
-        <img src="./assets/images/partner1.png" alt="">
-        <img src="./assets/images/partner2.png" alt="">
-        <img src="./assets/images/partner3.png" alt="">
-        <img src="./assets/images/partner4.png" alt="">
-      </div>
-    </div>
-    <div class="partners-right">
-      <h3>Get Newsletter</h3>
-      <p>Your download should start automatically, if not Click here. Should I give up, huh?.</p>
-      <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <div class="row">
+      <div class="partners-left col-12 col-lg-6">
+        <h3>Need To Train Your Team?</h3>
+        <p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+        <div class="partner-image">
+          <img src="./assets/images/partner1.png" alt="">
+          <img src="./assets/images/partner2.png" alt="">
+          <img src="./assets/images/partner3.png" alt="">
+          <img src="./assets/images/partner4.png" alt="">
         </div>
-        <button type="submit" class="btn btn-primary">Get it now</button>
-      </form>
+      </div>
+      <div class="partners-right col-12 col-lg-6">
+        <h3>Get Newsletter</h3>
+        <p>Your download should start automatically, if not Click here. Should I give up, huh?.</p>
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1"></label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address">
+          </div>
+          <button type="submit" class="btn btn-primary">Get it now</button>
+        </form>
+      </div>
     </div>
   </section>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

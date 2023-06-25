@@ -152,12 +152,13 @@ font-family: sans-serif;
 }
  
 .btn{
-    background-color: #00f;
+    background-color: #192675;
 }
 
 .btn:hover{
     background-color: #fff;
-    color: #00f;
+    color: #192675;
+    border-color: #192675;
 }
 .btn-check:focus+.btn, .btn:focus {
     outline: 0;
