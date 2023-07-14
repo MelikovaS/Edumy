@@ -42,7 +42,7 @@ a{
 .kart {
     display: flex;
     justify-content: space-between;
-    padding-top: 40px;
+    padding: 40px 35px;
   
 }
 
@@ -83,8 +83,8 @@ font-size: 18px;
 }
 
 .image1{
- border-radius: 15px;
- transition: all 0.3s ease;
+    border-radius: 15px;
+    transition: all 0.3s ease;
  
 }
 .image2{
@@ -175,7 +175,8 @@ font-size: 18px;
 .welcome{
     display: flex;
     justify-content: space-between;
-    padding-top: 70px;
+    padding: 70px 35px 60px;
+    background-color: rgba(100, 100, 100, 0.03);
 }
 
 .welcome-left h2{
@@ -188,14 +189,21 @@ font-size: 18px;
     height: 120px;
     font-size: 20px;
     color: #6f7074;
+    margin-bottom: 30px;
+}
+
+.welcome-left button{
+    width: 200px;
+    height: 50px;
+    color: #fff;
 }
 .welcome-right img{
-    width: 630px;
-    height: 412px;
+    width: 630px !important;
+    height: 412px !important;
 }
 
 .news{
-    padding: 60px 35px 0;
+    padding: 60px 35px 50px;
 }
 
 .news-left img{
@@ -222,7 +230,7 @@ font-size: 18px;
 }
 
 .news-left a:hover{
-        color: #000;
+    color: #000;
 }
 
 .see{
@@ -289,7 +297,7 @@ font-size: 18px;
     display: flex;
     margin: 0 0 20px;
     padding: 30px 10px;
-    background-color: rgba(100, 100, 100, 0.1);
+    background-color: rgba(100, 100, 100, 0.03);
     
 }
 
@@ -303,6 +311,10 @@ font-size: 18px;
     padding-top: 10px;
     position: relative;
     text-align: center;
+}
+
+.post-date:hover{
+    background-color: #192576;
 }
 
 .post-body {
@@ -335,10 +347,76 @@ font-size: 18px;
     width: 20px;
     height: 20px;
 }
-.learn {
-    display: flex;
-    justify-content: space-evenly;
-    height: 25%;
-    align-items: flex-end;
-    margin: 0 0;
+
+.learn{
+    padding: 50px 35px;
+    background-color: rgba(100, 100, 100, 0.03);
 }
+.images img{
+    color: #192675 !important;
+    width: 60px;
+    height: 61px;
+    margin-bottom: 25px;
+}
+.ikon a{
+    color: #000;
+}
+.ikon a:hover{
+    color: #333;
+}
+
+.partners{
+    background-color: rgba(100, 100, 100, 0.03);
+    padding: 35px 40px;
+}
+
+.partners-left h3{
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+
+.partners-left p{
+    color: #6f7074;
+    padding-bottom: 70px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.partner-image img{
+    padding-right: 50px;
+}
+
+.partners-right h3{
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+
+.partners-right p{
+    color: #6f7074;
+    padding-bottom: 60px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.partners-right form{
+    display: flex;
+    align-items: center;
+}
+
+form input{
+    width: 353px !important;
+    height: 50px;
+    margin-right: 40px;
+}
+
+form button{
+    width: 150px;
+    height: 50px;
+}
+
+form button img{
+    color: #fff !important;
+    padding-left: 10px;
+    align-items: center;
+}
+
