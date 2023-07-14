@@ -235,6 +235,10 @@ font-size: 18px;
     font-size: 18px;
 }
 
+.see img{
+    padding-left: 15px;
+}
+
 .news-center .blog{
     display: flex;
     margin-bottom: 20px;
@@ -277,11 +281,16 @@ font-size: 18px;
 .latest a:hover{
     color: #000;
 }
+
+.latest img{
+    padding-left: 15px;
+}
 .post{
     display: flex;
     margin: 0 0 20px;
     padding: 30px 10px;
-    background-color: #6f7074;
+    background-color: rgba(100, 100, 100, 0.1);
+    
 }
 
 .post-date{
