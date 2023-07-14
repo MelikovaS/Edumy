@@ -61,12 +61,13 @@ a{
     padding: 35px 40px;
 }
 .card-body h5{
-padding-bottom: 25px;
-width: 100%;
-line-height: 1.42857;
-font-family: "Nunito";
-font-weight: 600;
-font-size: 18px;
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    width: 100%;
+    line-height: 1.42857;
 }
 
 .card-body p{
@@ -80,6 +81,10 @@ font-size: 18px;
     color: #192675;
     font-size: 14px;
     line-height: 24px;
+}
+
+.card-body i{
+    padding-left: 15px;
 }
 
 .image1{
@@ -179,15 +184,18 @@ font-size: 18px;
 
 .welcome-left h2{
     font-size: 26px;
-    font-family: Nunito, sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
 }
 
 .welcome-left p {
+    font-size: 15px;
+    line-height: 2;
+    margin-bottom: 25px;
     max-width: 540px;
     height: 120px;
-    font-size: 20px;
     color: #6f7074;
-    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .welcome-left button{
@@ -212,6 +220,7 @@ font-size: 18px;
 .news-left h3{
     font-weight: 700;
     margin-bottom: 50px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .news-left h5{
@@ -219,12 +228,14 @@ font-size: 18px;
     line-height: 24px;
     margin-bottom: 5px;
     margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .news-left a{
     font-size: 15px;
     line-height: 30px;
     color: #333333;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .news-left a:hover{
@@ -239,9 +250,10 @@ font-size: 18px;
 .see a{
     color: #000;
     font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.see img{
+.see i{
     padding-left: 15px;
 }
 
@@ -259,6 +271,7 @@ font-size: 18px;
 .news-center .blog a{
     color: #333333;
     font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .news-center .blog a:hover{
@@ -267,6 +280,7 @@ font-size: 18px;
 .news-center .blog h5{
     font-size: 18px;
     margin-bottom: 1rem;
+    font-family: 'Nunito', sans-serif;
 }
 
 .latest{
@@ -277,18 +291,20 @@ font-size: 18px;
 
 .latest h3{
     font-weight: 700;
+    font-family: 'Nunito', sans-serif;
 }
 
 .latest a{
     color: #333;
     font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .latest a:hover{
     color: #000;
 }
 
-.latest img{
+.latest i{
     padding-left: 15px;
 }
 .post{
@@ -330,15 +346,17 @@ font-size: 18px;
 }
 
 .post-body-top a{
-    color:#333333
+    color:#333333;
 }
 .post-body-top address{
-    color:#333333
-}.post-body-top a:hover{
-    color:#000
+    color:#333333;
+    
+}
+.post-body-top a:hover{
+    color:#000;
 }
 .post-body-top address:hover{
-    color:#000
+    color:#000;
 }
 
 .post-body-top img{
@@ -350,21 +368,27 @@ font-size: 18px;
     padding: 50px 35px;
     background-color: rgba(100, 100, 100, 0.03);
 }
-.images img{
-    color: #192675 !important;
+
+.images i{
+    color: #00f;
     width: 60px;
     height: 61px;
-    margin-bottom: 25px;
 }
+
+.ikon i:hover{
+    color: #ff1053;
+}
+
 .ikon {
     display: flex;
     flex-direction: column;
 }
 .ikon a{
     color: #000;
+    font-family: 'Nunito', sans-serif;
 }
 .ikon a:hover{
-    color: #333;
+    color: #333333;
 }
 
 .partners{
@@ -375,6 +399,7 @@ font-size: 18px;
 .partners-left h3{
     padding-bottom: 15px;
     font-weight: 700;
+    font-family: 'Nunito', sans-serif;
 }
 
 .partners-left p{
@@ -382,6 +407,7 @@ font-size: 18px;
     padding-bottom: 70px;
     font-size: 18px;
     font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .partner-image img{
@@ -391,6 +417,7 @@ font-size: 18px;
 .partners-right h3{
     padding-bottom: 15px;
     font-weight: 700;
+    font-family: 'Nunito', sans-serif;
 }
 
 .partners-right p{
@@ -398,6 +425,7 @@ font-size: 18px;
     padding-bottom: 60px;
     font-size: 18px;
     font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .partners-right form{
@@ -416,9 +444,7 @@ form button{
     height: 50px;
 }
 
-form button img{
-    color: #fff !important;
-    padding-left: 10px;
-    align-items: center;
+form i{
+    color: #fff;
+    padding-left: 15px;
 }
-
